@@ -1,0 +1,30 @@
+:root {
+  --color-white: #fff;
+  --color-red: #61001d;
+  --color-red-hover: #db0a49;
+}
+
+.red-button {
+  background: linear-gradient(1turn, #c4003b 0.8%, #fb1949);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 16px #ff234180, inset 0 4px 3px #ffffff4d;
+  color: var(--color-white);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+  line-height: 24px;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.1s ease-in-out, background 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  white-space: nowrap;
+}
+
+.red-button:hover {
+  background: linear-gradient(3360deg, #db0a49 0.8%, #fb2b57);
+  box-shadow: 0 3px 20px #ff234199, inset 0 4px 4px #ffffff5e;
+  transform: translateY(-2px);
+}

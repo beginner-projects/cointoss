@@ -1,0 +1,32 @@
+.canvas {
+  width: 90vw;
+  height: 65vh;
+  border-radius: 10px;
+}
+.coin-canvas {
+  width: 100%;
+  height: 70%;
+}
+
+.data-display {
+  width: 100%;
+  height: 110px;
+  overflow: hidden;
+}
+
+.coinIcon {
+  top: 30%;
+  left: 17%;
+  width: 250px;
+  height: 250px;
+}
+
+.image-ton {
+  margin-left: 40%;
+}
+
+.input-balance-feild {
+  display: flex;
+  flex-direction: column;
+
+}

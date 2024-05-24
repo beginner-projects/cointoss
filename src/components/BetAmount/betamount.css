@@ -1,0 +1,23 @@
+.bet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 10%;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding-left: 35%;
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+.inputbutton {
+  border: none;
+  background: inherit;
+  overflow: hidden;
+  outline: none; /* Remove outline for a cleaner look */
+}
+
+.inputbutton:focus {
+  outline: none; /* Ensure no outline appears on focus */
+}
